@@ -1,6 +1,6 @@
 cask "monglebar" do
-  version "1.1.6,8"
-  sha256 "1a97bc0bc683809e99647e928a44940833018689306057e81584b1a844ca8e15"
+  version "1.1.7,9"
+  sha256 "3d6125899b073e4c809ee85364e15f81219fd38cfd2cb3df2df0285071c67e04"
 
   url "https://monglebar.vercel.app/downloads/MongleBar-#{version.csv.first}.dmg"
   name "MongleBar"
