@@ -6,7 +6,10 @@ cask "monglebar" do
   name "MongleBar"
   name "몽글바"
   desc "Menu bar tamagotchi that shows Claude usage limits"
-  homepage "https://monglebar.vercel.app/"
+  homepage "https://burndown-app.vercel.app/"
+
+  # 2.0부터 이름이 Burndown으로 바뀌고 Mac App Store에서만 배포한다
+  deprecate! date: "2026-10-26", because: "has moved to the Mac App Store as Burndown (https://apps.apple.com/app/id6811781120)"
 
   livecheck do
     url "https://monglebar.vercel.app/appcast.xml"
